@@ -1,0 +1,229 @@
+*{
+    font-family: 'Montserrat';
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* Carousel Image prop */
+.c-item{
+    height: 70vh;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+    
+}
+/* Banner-content style */
+.banner .banner-content{
+    padding-top: 5rem;
+    /* max-width: 900px; */
+     text-align: center;
+    color: white;          
+}
+
+.home p{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.banner-content h1{
+    font-family: 'Poppins';
+    font-size: 4.5rem;
+} 
+
+/* Specific for slide 1 */
+#Reality{
+    font-family: 'Montserrat';
+    font-size: 4.5rem;
+    color: rgb(162, 223, 180);  
+     /* color: goldenrod; */
+}
+
+/* Specific for slide 1 */
+#Build{
+    font-family: 'Montserrat';
+    font-weight: 130 !important;
+    font-size: 5rem;
+    color:  rgb(72, 233, 171);
+}
+
+/* Specific for slide 1 */
+.banner-content span{
+    font-family: 'Poppins';
+    font-size: 6rem;
+    /* color: goldenrod; */
+    /* color: rgb(72, 233, 171); */
+    /* color: rgb(121, 70, 34); */
+} 
+
+/* Enitre buttons on banner */
+.banner-content .btn{
+    width: 170px;
+    font-size: 1.1em;
+    text-align: center;
+    display: inline-block;
+    margin: 2px 5px;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 1.5px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  
+  }
+ 
+/* slide-1 button */
+
+#explore-btn{
+    background-color: goldenrod;
+    border: 1px solid goldenrod ;
+    color: black;
+}
+
+#explore-btn:hover{
+    background-color: transparent;
+    border: 1px solid goldenrod ;
+    color: white;
+    transition: ease-in-out 1s;
+}
+/*----------- Slide -1 button ends---------------- */
+
+
+/* Specifically for slide 2 */
+.classic p{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 1rem;
+}
+#classic{
+    color: goldenrod;
+
+}
+
+#our{
+    font-weight: 200;
+} 
+
+
+#aim{
+    font-size: 7rem;
+    font-weight: 300 !important;
+    color: rgb(26, 184, 184);
+    /* color: rgb(33, 228, 228); */
+
+}
+/* ---------------slide 2 ends------------------ */
+
+
+/* Slide-3 */
+
+.strong-it p{
+    font-weight: 430;
+    font-size: 1rem;
+}
+#strong{
+    color:  rgb(121, 70, 34);
+}  
+
+#IT{
+    font-size: 5.4rem;
+}
+
+#mid-a{
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+#mid-t{
+    color: rgb(26, 184, 184);
+    font-weight: 400;
+}
+
+#contact-btn{
+ background-color: rgb(26, 184, 184);
+ font-family: 'Montserrat';
+ font-weight: 500;
+}
+
+#contact-btn:hover{
+    background-color: rgb(3, 3, 3);
+      border: solid 1px rgb(160, 140, 30);
+    transition: ease-in 0.5s;
+}
+
+
+
+/* -----------------PLAN SECTION---------------- */
+ #plan-title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 	1.5rem;
+ }
+
+ .custom-card{
+    font-weight: 500;
+ }
+
+ .card-text{
+    font-weight: 400;
+ }
+
+ 
+ /* -------------PLAN SECTION edns------------------------ */
+
+
+ /*------------ Footer--------------- */
+.custom-footer{
+    background-color: rgb(53, 6, 97);
+}
+
+.custom-head{
+    margin-left: 2.5rem;
+    color: rgb(150, 111, 13);
+}
+
+.custom-p1{
+    margin-left: 6rem;
+    margin-top: -1rem !important;
+   color: rgb(192, 166, 21);
+
+}
+
+
+.custom-p2{
+    padding-left: 7rem;
+    margin-top: -1rem !important;
+    color: rgb(192, 166, 21);
+}
+
+.custom-p3{
+    margin-left: 7rem;
+    margin-top: -1rem !important;
+    color: rgb(192, 166, 21);
+}
+
+.custom-p4{
+    margin-left: 1rem;
+    margin-top: -1rem !important;
+    color: white;
+    font-weight: 400;
+
+}
+
+.custom-p5{
+    padding-left: 3rem;
+    margin-top: -1rem !important;
+    color: white;
+    font-weight: 400;
+}
+
+.custom-p6{
+    margin-left: 5rem;
+    margin-top: -1rem !important;
+    color: white;
+    font-weight: 400;
+}
+ /* ------------Footer-------------- */
